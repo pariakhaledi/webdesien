@@ -1,0 +1,23 @@
+.buttonsupermarket{
+    width: 130px;
+    height: 55px;
+    background-color:#029a49 ;
+    position: fixed;
+    z-index: 99999;
+    top: 550px;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontfamily);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    column-gap: 6px;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+}

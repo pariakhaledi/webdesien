@@ -1,0 +1,51 @@
+.digikaladownload{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .digikaladowenload-center{
+        width: 1330px;
+        height: inherit;
+        background-color: #3c4b6d;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .digikaladownload-center-right{
+            display: flex;
+            align-items: center;
+            margin-right: 18px;
+            column-gap: 15px;
+            img{
+                width: 44px;
+                height: 44px;
+                border-radius: 8px;
+            }
+            p{
+                font-family: var(--fontfamily);
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+        .digikaladownload-center-left{
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+            margin-left: 18px;
+            .downloadmore{
+                width: 42px;
+                height: 42px;
+                border-radius: 4px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+}

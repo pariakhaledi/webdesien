@@ -1,0 +1,157 @@
+.digikala {
+  width: 100%;
+  height: 584px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-top: 1px solid #f0f0f1;
+  margin-top: 20px;
+  .digikala-center {
+    width: 1300px;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    .digikala-center-top {
+      margin-top: 40px;
+      display: flex;
+      column-gap: 1052px;
+      img {
+        width: 113.33px;
+        height: 30px;
+      }
+      button {
+        width: 136px;
+        height: 40px;
+        background-color: white;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        a {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          color: #a1a3a8;
+          font-family: var(--fontfamily);
+          column-gap: 4px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+    .poshtibani {
+      font-family: var(--fontfamily);
+      color: #3f4064;
+      display: flex;
+      font-size: 12px;
+      column-gap: 20px;
+      font-weight: 200;
+      span {
+        width: 1px;
+        height: 15px;
+        background-color: #a1a3a8;
+      }
+    }
+    .delivery {
+      text-decoration: none;
+      color: #3f4064;
+      font-family: var(--fontfamily);
+      font-size: 11px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      .delivery-item {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        column-gap: 30px;
+        img {
+          width: 56px;
+          height: 56px;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .digikala-center-end {
+      display: flex;
+      font-family: var(--fontfamily);
+      margin-top: 30px;
+      justify-content: space-between;
+      /* column-gap: 60px; */
+      .digikala-center-end-item {
+        display: flex;
+        flex-flow: column;
+        row-gap: 20px;
+        h5 {
+          font-size: 16px;
+          color: #3f4064;
+          font-weight: 700;
+        }
+        a {
+          text-decoration: none;
+          p {
+            font-size: 14px;
+            color: #81858b;
+          }
+        }
+      }
+      .digikala-withus{
+        display: flex;
+        flex-flow: column;
+        row-gap: 15px;
+        h5{
+          font-size: 16px;
+          color: #3f4064;
+          font-weight: 700;
+        }
+        .digikala-svg{
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          column-gap: 15px;
+          img{
+            width: 55px;
+            height: 55px;
+          }
+        }
+        .digikala-email{
+          input[type="email"]{
+            caret-color: #ef4056;
+            &:focus{
+              outline: unset;
+            }
+          }
+          .youremail{
+            width: 260px;
+            height: 50px;
+            background-color: #f0f0f1;
+            font-family: var(--fontfamily);
+            font-size: 14px;
+            padding-right: 12px;
+            border-radius: 8px;
+            &::placeholder{
+              color:#a1a3a8;
+            }
+          }
+          .sabt{
+            width: 54px;
+            height: 50px;
+            border-radius: 8px;
+            background-color: #E0E0E2;
+            font-size: 14px;
+            font-family: var(--fontfamily);
+            a{
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

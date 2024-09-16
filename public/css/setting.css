@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../fonts/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+  font-family: bnazanin;
+  src: url(../fonts/bnazanin/BNazanin.eot);
+  src: url(../fonts/bnazanin/BNazanin.woff2);
+  src: url(../fonts/bnazanin/BNazanin.woff);
+}
+:root {
+  --fontfamily: iranyekan;
+  --fonteadad:bnazanin;
+  --abi:#19bfd3;
+}
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    width: 35px !important;
+    height: 35px !important;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    content: "" !important;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    content: "" !important;
+  }
+  .swiper-button-next:hover{
+    svg{
+      g{
+        fill: black;
+      }
+    }
+  }
+  .swiper-button-prev:hover{
+    svg{
+      g{
+        fill: black;
+      }
+    }
+  }
+  .swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{
+    opacity: 0 !important;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    transition: 300ms;
+    background-color: black;
+  }
+  .swiper-pagination-bullet-active{
+    width: 15px !important;
+    border-radius: 5px !important;
+    background-color: whitesmoke !important;
+  }

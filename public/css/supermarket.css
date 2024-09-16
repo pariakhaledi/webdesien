@@ -1,0 +1,100 @@
+.supermarket {
+  width: 100%;
+  height: 110px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    width: 1330px;
+    height: inherit;
+    background-color: #eceeee;
+    background-image: url(../svg/supermarket.svg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    column-gap: 20px;
+    .basket{
+        margin-right: 40px;
+      }
+   
+    button {
+      width: 111px;
+      height: 29px;
+      background-color: #029a49;
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--fontfamily);
+      color: whitesmoke;
+      font-size: 14px;
+      border-radius: 9999px;
+      font-weight: bold;
+      span{
+        font-family: var(--fonteadad);
+        font-size:16px;
+      }
+    }
+    .supermarket-center-left{
+        padding-right: 135px;
+        display: flex;
+        column-gap: 10px;
+        .supermarket-center-product{
+            width: 75px;
+            height: 75px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            img{
+                width: 52px;
+                height: 52px;
+                align-items: center;
+                position: absolute;
+                top: 11px;
+                right: 11px;
+                z-index: 1;
+            }
+            .supermarket-center-product-discount{
+                width: 32px;
+                height: 20px;
+                background-color: #D32F2F;
+                z-index: 100000;
+                position: absolute;
+                top: 60px;
+                border-radius:9999px ;
+                font-family: var(--fonteadad);
+                font-size:14px;
+                font-weight: bold;
+                color: whitesmoke;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    .supermarket-center-morethan30{
+      width: 140px;
+      height: 50px;
+      background-color: white;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      margin-left: 20px;
+      p{
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        font-weight: bold;
+        color: #029a49;
+        padding-right: 10px;
+        span{
+          font-family: var(--fonteadad);
+          font-size:14px;
+        }
+      }
+    }
+  }
+}

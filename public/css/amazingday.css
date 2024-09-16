@@ -1,0 +1,150 @@
+.amazingday {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  .amazingday-center {
+    width: 1330px;
+    height: inherit;
+    background-image: url(../svg/background.svg),linear-gradient(180deg,#e6123d,#c60c31);
+    background-repeat: repeat-x;
+    border-radius: 16px !important;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      .swipertop{
+        display: flex;
+        align-items: center;
+        column-gap: 4px;
+        margin: 5px 12px 0 0;
+        img{
+            width: 19.51px;
+        }
+        p{
+            font-family: var(--fontfamily);
+            color: white;
+        }
+      }
+    .swiper-wrapper{
+        .swiper-slide{
+            width: 545px;
+            height: 260px;
+            border-radius: 9px;
+            background-color: white;
+            margin: 16px;
+            display: flex;
+            flex-flow: column;
+            .swiper-slide-amazindday-top{
+                 margin-top: 15px;
+                 margin-right: 15px;
+                img{
+                 width: 116px;
+                 height: 14px;
+                }
+            }
+            .swiper-slide-amazindday-main{
+                margin-top: 5px;
+                display: flex;
+                /* flex-flow: row wrap; */
+                font-family: var(--fontfamily);
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+                .swiper-slide-amazindday-main-left{
+                    h3{
+                     font-size: 13px;
+                     color: #3f4064;
+                     margin-top: 20px;
+                    }
+                    .star{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 15px;
+                        margin-right: 5px;
+                        p{
+                            font-family: var(--fontfamily);
+                            font-size: 10px;
+                        }
+                        img{
+                            width: 16px;
+                            height: 16px;
+                        }
+                        .starpoint{
+                            font-size: 12px;
+                            display: flex;
+                            align-items: center;
+                            column-gap: 2px;
+                            font-family: var(--fontfamily);
+                            margin-left: 15px;
+                        }
+                    }
+                    .swiper-slide-amazindday-main-left-price{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-left: 16px;
+                        margin-top: 16px;
+                        .pricediscount{
+                            width: 35px;
+                            height: 20px;
+                            background-color: #d32f2f;
+                            border-radius: 10px;
+                            color: whitesmoke;
+                            font-size: 12px;
+                            text-align: center;
+                            line-height: 20px;
+                        }
+                        .price-amazing {
+                            width: fit-content;
+                            display: flex;
+                            flex-flow: row wrap;
+                            align-items: center;
+                            font-size: 15px;
+                            margin-right: 24px;
+                            img {
+                              width: 20px;
+                              height: 20px;
+                            }
+                            div {
+                              font-family: var(--fontfamily);
+                            }
+                        }
+                    }
+                    .swiper-slide-amazindday-main-left-discount{
+                        width: 100%;
+                        font-family: var(--fontfamily);
+                        color: black;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-align: left;
+                        padding-left: 37px;
+                        text-decoration: line-through lightslategray;
+                        background-color: white;
+                        opacity: 0.7;
+                        margin-top: 14px;
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    .swiper-slide-amazindday-main-left-clock{
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-left: 16px;
+                        margin-top: 20px;
+                        font-size: 12px;
+                        p{
+                            color: #ef394e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+    }}
+    .lastone{
+        width: 510px !important;
+        /* margin-left: 36px; */
+    }

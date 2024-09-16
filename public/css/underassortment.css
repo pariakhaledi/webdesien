@@ -1,0 +1,32 @@
+.underassortment {
+    width: 100%;
+    height: 280px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    .underassortment-center {
+      width: 1330px !important;
+      height: inherit;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      margin-top: 10px;
+      column-gap: 15px;
+      .underassortmentimg {
+        width: 1200px !important;
+        height: inherit;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        img {
+          width: 660px;
+          height: 264px;
+          object-fit: cover;
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+  

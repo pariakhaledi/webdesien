@@ -1,0 +1,43 @@
+.brands {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  .brands-center {
+    width: 1330px;
+    height: inherit;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .brands-center-top {
+      display: flex;
+      column-gap: 5px;
+      margin-top: 35px;
+      margin-bottom: 15px;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+      p {
+        font-family: var(--fontfamily);
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+    .swiper{
+        width: 100%;
+        height: 115px;
+        background-color: #e0e0e2;
+        .swiper-slide{
+            img{
+                width: 110px;
+                height: 110px;
+            }
+        }
+    }
+  }
+}

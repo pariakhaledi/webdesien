@@ -1,0 +1,141 @@
+.newslider {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .newslider-center {
+    width: 1330px;
+    height: inherit;
+    background-color: #ef4056;
+    background-repeat: repeat-x;
+    border-radius: 16px !important;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .swiper-wrapper {
+        .swiper-slide {
+          width: 195px;
+          height: 390px;
+          background-color: white;
+          margin: 10px;
+          margin-top: 20px;
+          border-radius: 9px;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          /* justify-content: center; */
+          font-family: var(--fontfamily);
+          .swiper-slide-top {
+            margin-top: 20px;
+            margin-left: 50px;
+            img {
+              width: 116px;
+              height: 14px;
+            }
+          }
+          .swiper-slide-image {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 150px;
+              height: 150px;
+            }
+            p {
+              font-size: 12px;
+              margin-right: 15px;
+            }
+          }
+          .today {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 9px;
+            margin-top: 12px;
+            margin-left: 98px;
+            column-gap: 3px;
+            img {
+              width: 18px;
+              height: 18px;
+            }
+          }
+          .swiper-slide-price {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 16px;
+            margin-top: 16px;
+            column-gap: 20px;
+            .pricediscount {
+              width: 35px;
+              height: 20px;
+              background-color: #d32f2f;
+              border-radius: 10px;
+              color: whitesmoke;
+              font-size: 12px;
+              text-align: center;
+              line-height: 20px;
+              margin-right: 10px;
+            }
+            .price-amazing {
+              width: fit-content;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              font-size: 15px;
+              margin-right: 24px;
+              img {
+                width: 20px;
+                height: 20px;
+              }
+              div {
+                font-family: var(--fontfamily);
+              }
+            }
+          }
+          .swiper-slide-amazindday-main-left-discount {
+            width: 100%;
+            font-family: var(--fontfamily);
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 37px;
+            text-decoration: line-through lightslategray;
+            background-color: white;
+            opacity: 0.7;
+            margin-top: 14px;
+            p {
+              font-size: 12px;
+            }
+          }
+          .swiper-slide-left-clock {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+            font-size: 12px;
+            margin-right: 120px;
+            p {
+              color: #ef394e;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.first {
+  background-color: #ef4056 !important;
+  display: flex !important;
+  flex-flow: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  img {
+    width: 145px;
+    height: 145px;
+  }
+}
